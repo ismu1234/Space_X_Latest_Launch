@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.nndiabet_bloc">
    <application
-        android:label="nndiabet_bloc"
+        android:label="SpaceXProject"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
