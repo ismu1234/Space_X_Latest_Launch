@@ -71,7 +71,7 @@ class _SpaceXLunchViewState extends State<SpaceXLunchView> {
   }
 
   CustomRefreshIndicator _hasDataState(
-      Future<dynamic> loadList(), SpaceXLaunchBlocLoaded state) {
+      Future<dynamic> Function() loadList, SpaceXLaunchBlocLoaded state) {
     return CustomRefreshIndicator(
       key: keyRefresh,
       onRefresh: loadList,

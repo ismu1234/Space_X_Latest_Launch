@@ -3,11 +3,10 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:sizer/sizer.dart';
-import 'package:space_x_latest_launch/main.dart';
-import 'package:space_x_latest_launch/src/config/router/app_router.dart';
-import 'package:space_x_latest_launch/src/core/contants/app_contants.dart';
-import 'package:space_x_latest_launch/src/presentation/view/space_x_lunch_view.dart';
 
+import '../../../main.dart';
+import '../../config/router/app_router.dart';
+import '../../core/contants/app_contants.dart';
 import '../../core/theme/colors.dart';
 
 class SplashView extends StatefulWidget {
