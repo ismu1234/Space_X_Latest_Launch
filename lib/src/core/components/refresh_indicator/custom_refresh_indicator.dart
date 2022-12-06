@@ -3,11 +3,11 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class RefreshWidget extends StatefulWidget {
+class CustomRefreshIndicator extends StatefulWidget {
   final Widget child;
   final Future Function() onRefresh;
 
-  const RefreshWidget({
+  const CustomRefreshIndicator({
     required Key key,
     required this.onRefresh,
     required this.child,
@@ -17,7 +17,7 @@ class RefreshWidget extends StatefulWidget {
   _RefreshWidgetState createState() => _RefreshWidgetState();
 }
 
-class _RefreshWidgetState extends State<RefreshWidget> {
+class _RefreshWidgetState extends State<CustomRefreshIndicator> {
   @override
   Widget build(BuildContext context) =>
       Platform.isAndroid ? buildAndroidList() : buildIOSList();
